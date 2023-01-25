@@ -15,6 +15,10 @@ export const Container = styled.section`
     justify-content: space-around;
     padding: 35px;
   }
+
+  h2 {
+    padding: 60px 0 15px;
+  }
 `;
 
 export const Intro = styled.div`

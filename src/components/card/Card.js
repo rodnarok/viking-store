@@ -4,10 +4,10 @@ function Card({ nome, img }) {
   return (
     <CardContent>
       <div>
-        <h3>{nome}</h3>
+        <img src={img} alt="prod" />
       </div>
       <div>
-        <img src={img} alt="prod" />
+        <h3>{nome}</h3>
       </div>
     </CardContent>
   );

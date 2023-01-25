@@ -1,15 +1,28 @@
+import { Link } from "react-router-dom";
 import { Top } from "./styles";
-import vikIcon from "../../img/img-inicio.bmp";
+import vikIcon from "../../img/logo-viking.jpg";
 
 function Header() {
   return (
     <Top>
-      <img src={vikIcon} alt="viking" />
+      <Link to="/">
+        <img src={vikIcon} alt="viking" />
+      </Link>
       <div>
-        <p>Inicio</p>
-        <p>Login</p>
-        <p>Carrinho</p>
-        <p>Produtos</p>
+        <ul>
+          <li className="item">
+            <Link to="/criaracc">Crie a sua conta</Link>
+          </li>
+          <li>
+            <Link to="/login">Entrar</Link>
+          </li>
+          <li>
+            <Link to="/produtos">Produtos</Link>
+          </li>
+          <li>
+            <p>Carrinho</p>
+          </li>
+        </ul>
       </div>
     </Top>
   );

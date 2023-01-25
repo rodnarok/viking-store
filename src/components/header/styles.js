@@ -14,12 +14,31 @@ export const Top = styled.div`
     align-items: center;
   }
 
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  li {
+    margin-right: 1em;
+  }
+
+  li:hover {
+    color: #ffbb33;
+    font-size: 20px;
+  }
+
   img {
-    width: 100px;
+    width: 150px;
     cursor: pointer;
   }
 
   p {
     padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
