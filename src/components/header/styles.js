@@ -25,7 +25,6 @@ export const Top = styled.div`
   }
 
   li:hover {
-    color: #ffbb33;
     font-size: 20px;
   }
 
@@ -40,5 +39,8 @@ export const Top = styled.div`
 
   a {
     text-decoration: none;
+  }
+  a:visited {
+    color: #ffeadc;
   }
 `;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Form = styled.div`
+export const Form = styled.form`
   background-color: #512522;
   min-width: 400px;
   min-height: 300px;
